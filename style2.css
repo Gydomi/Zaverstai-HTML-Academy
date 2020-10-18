@@ -1,0 +1,97 @@
+body{
+	margin:0;
+	background-color: #E5E5E5
+}
+.header-menu{
+margin: 0 auto;
+width: 1440px;
+height: 581px;
+left: 0px;
+top: 0px;
+background: url(sonnie-hiles-gG70fyu3qsg-unsplash 1.jpg);
+}
+.text-menu{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: #2E2F22;
+}
+.rectane2{
+height: 581px;
+width: 1440px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+background: rgba(196, 196, 196, 1);
+}
+.mask-group1{
+margin:0 auto;
+height: 581px;
+width: 1440px;
+border-radius: 0px;
+}
+.logo{
+width: 130px;
+height: 82.51px;
+left: 120px;
+top: 4px;
+}
+.info{
+	position: absolute;
+	
+}
+.info div:nth-child(1){
+position: absolute;
+width: 61px;
+height: 25px;
+left: 710px;
+top: 33px;
+}
+.info div:nth-child(2){
+position: absolute;
+width: 100px;
+height: 25px;
+left: 1013px;
+top: 33px;
+}
+.info div:nth-child(3){
+position: absolute;
+width: 76px;
+height: 25px;
+left: 854px;
+top: 33px;
+}
+.info div:nth-child(4){
+position: absolute;
+width: 123px;
+height: 25px;
+left: 1196px;
+top: 33px;
+}
+.background-articles{
+position: absolute;
+width: 1200px;
+height: 1290px;
+left: 120px;
+top: 664px;
+border: 1px solid rgba(32, 33, 23, 1)
+background-color:rgb(255,255,255);
+
+
+}
+.articles div:nth-of-type(2){
+position: absolute;
+width: 220px;
+height: 55px;
+left: 120px;
+top: 666px;
+font-family: Spectral SC;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 55px;
+color: #2E2F22;
+}

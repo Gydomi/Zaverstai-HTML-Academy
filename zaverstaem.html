@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+		<title>zaverstaem</title>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Spectral+SC:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<!-- Header -->
+		<header class='nav-menu font-family1'>
+			<nav class="nav-menu-header">
+				<img class="logo" src="resourse 5 1.png" alt="">
+				<a href="#nav-articles">Статья</a>
+				<a href="#nav-about-me">Обо мне</a>
+				<a href="#nav-portfolio">Портфолио</a>
+				<a href="#nav-write-me">Написать мне</a>
+			</nav>
+		</header>
+		<!-- Articles -->
+		<section class="articles">
+			<div class="header-articles font-family1">
+				<div id="nav-articles" class="topic-n font-family2">Все статьи</div>
+				<select class="font-family1" id="nav-select-articles" name="nav-select-articles">
+					<option hidden selected>Выбрать тему</option>
+					<option value="all">Все статьи</option>
+					<option value="berlin">Город</option>
+					<option value="books" >Книги</option>
+					<option value="traveling" >Путешествия</option>
+					<option value="cheesecake">Рецепты</option>
+					<option value="photo">Фотографии</option>
+				</select>
+			</div>
+			<div class="all-articles font-family1">
+				<div class='berlin ar-size' data-category="berlin">
+					<a href="zaverstaem2.html">
+					<img src="berlin.png" alt="фотография одной из улиц Берлина">
+					<div class="topic font-family2">Путешествие в Берлин в Августе</div>
+					<div class="description">Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</div>
+					<div class="tags">Теги: путешествия <span>29.09.2020</span></div>
+					</a>
+				</div>
+				<div class="coffe-moscow ar-size" data-category="books">
+					<a href="zaverstaem2.html">
+					<img src="coffee-moscow.png" alt="Напитки">
+					<div class="topic font-family2">Где выпить Колдобрю в Москве</div>
+					<div class="description">Собрала для вас список любимых кофеен, где подают лучший летний напиток.</div>
+					<div class="tags">Теги: город <span>24.07.2020</span></div>
+					</a>
+				</div>
+				<div class="books ar-size" data-category="traveling">
+					<a href="zaverstaem2.html">
+					<img src="books.png" alt="berlin">
+					<div class="topic font-family2">Прочитано: книжные рекомендации</div>
+					<div class="description">Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</div>
+					<div class="tags">Теги: книги <span>15.07.2020</span></div>
+					</a>
+				</div>
+				<div class="photo ar-size" data-category="photo">
+					<a href="zaverstaem2.html">
+					<div class='padding-text'>
+						<div class="topic2 font-family2">Снимки на плёнку</div>
+						<div class="description2">Поделилась с вами весенними фотографиями, и секретами удачных снимков.</div>
+						<div class="tags2">Теги: фотографии <span>29.06.2020</span></div>
+					</div>
+					</a>
+				</div>
+				<div class="cheesecake ar-size" data-category="cheesecake">
+					<a href="zaverstaem2.html">
+					<div class='padding-text'>
+						<div class="topic2 font-family2">Домашний чизкейк</div>
+						<div class="description2">Что может быть лучше чизкейка с сезонными ягодами? Только домашний чизкейк!</div>
+						<div class="tags2">Теги: рецепты <span>24.06.2020</span></div>
+					</div>
+					</a>
+				</div>
+			</div>
+			<div class="button-n font-family1">
+				<button class="button" type="button">Показать ещё</button>
+			</div>
+		</section>
+		<!-- About me -->
+		<section class="about-me">
+			<h1 id="nav-about-me" class="topic-n font-family2">Обо мне</h1>
+			<div class="all-about-me font-family1">
+				<div class="img-6 ab-size"></div>
+				<div class="text-about-me ab-size ">
+					<div class="small-text">
+						<p>Всем привет! Меня зовут Аня, и это мой личный блог.
+							Здесь ты найдёшь рассказы о моих путешествиях, снимки
+							на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
+						что мне инетресно.</p>
+						<p>Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+							портфолио. Ниже размещены несколько моих лучших
+						рабочих текстов. Буду рада новым сотрудничествам!</p>
+						<p>Если вы хотите написать мне — это можно сделать в соцсетях
+							или через <ins>форму</ins>. Всегда приятно услышать обратную связь
+						от читателей и познакомиться поближе.</p>
+						<br>
+						Приятного чтения!
+					</div>
+					<div class="big-text font-family1">
+						<i>Я верю, что каждый раз пробуя новое,
+						выходящее за зону моего комфорта,
+						я действительно узнаю настояющую
+						себя.</i>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Portfolio -->
+		<section class="portfolio">
+			<h1 id="nav-portfolio" class="topic-n font-family2">Портфолио</h1>
+			<div class="all-portfolio font-family2">
+				<div class="ap-size ">
+					<div class="topic-p1">Блог HTML Academy</div>
+					<a class="topic-p2" href="#">«Как учиться продуктивно»</a>
+					<div class="description-n font-family1">Про основные методы обучения, которые помогут быстро и надолго запомнить информацию.</div>
+				</div>
+				<div class="ap-size">
+					<div class="topic-p1">Журнал «LNK»</div>
+					<a class="topic-p2" href="#">«Зачем поцели нужны человеку? И какие они бывают»</a>
+					<div class="description-n font-family1">Поцелуи — повсеместная ежедневная практика. Но зачем люди целуются? Какие смысли вкладывают в этот ритуал? И где корни этой практики?</div>
+				</div>
+				<div class="ap-size">
+					<div class="topic-p1">Журнал «Т — Л»</div>
+					<a class="topic-p2" href="#">«Советы по эффективной
+					удалённой работе»</a>
+					<div class="description-n font-family1">Поделилась лайфхаками, которые помогают
+					мне работать продуктивно из дома. </div>
+				</div>
+			</div>
+			<div class="button-n font-family1">
+				<input class="button" type="button" value="ПОКАЗАТЬ ЕЩЁ">
+			</div>
+		</section>
+		<!-- Write me -->
+		<section class="write-me">
+			<h1 id="nav-write-me" class="topic-n font-family2">Написать мне</h1>
+			<div class="back-write-me">
+				<form class="form-write-me ">
+					<div class="half-width">
+						<label class="font-family2" for="your-name">Ваше имя</label>
+						<input type="text" name="your-name" placeholder="Иван Иванов"required>
+					</div>
+					<div class="half-width">
+						<label class="font-family2" for="email">Email</label>
+						<input type="email" name="email" placeholder="google@gmail.com" required>
+					</div>
+					<div class="half-width">
+						<label class="font-family2" for="text">Сообщение</label>
+						<textarea class="font-family1" type="text" name="text" placeholder="Напишите здесь ваше сообщение." required></textarea>
+					</div>
+					<div class="half-width-botton">
+						<button type="submit" class='botton-add font-family1'>ОТПРАВИТЬ</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<!-- Footer ¯\_(ツ)_/¯ -->
+		<footer>
+			<nav class="messengers font-family1">
+				<a class="vk" href="#">VK</a>
+				<a class="telegram" href="#">Telegram</a>
+				<a class="instagram" href="#">Instagram</a>
+				<a class="twitter" href="#">Twitter</a>
+			</nav>
+		</footer>
+	</body>
+</html>
